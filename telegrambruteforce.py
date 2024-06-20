@@ -13,7 +13,7 @@ if __name__ == '__main__':
     parser.add_argument("--hash", help="The passcode hash", required=True)
 
     # Parse the arguments
-    args = parser.parse_args()
+    args = parser.parse_args("C:\Users\DELL PC\OneDrive\Počítač\GitHub Project\Crypto-Wallet-Cracker-main\telegram-bruteforce\telegrambruteforce.py")
 
     # Decode the passcode salt
     try:
